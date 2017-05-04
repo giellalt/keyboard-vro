@@ -1,0 +1,37 @@
+internalName: vro_keyboard
+
+locales:
+  en:
+    name: &bundleName "Võro Keyboards"
+    description: "Mobile OS keyboards for the Võro language from the Divvun group at UiT."
+  nb:
+    name: "Võro tastatur"
+    description: "Mobiltastatur for Võro fra Divvun-gruppa."
+
+author: The Divvun Group, UiT Norgga árktalaš universitehta
+email: feedback@divvun.no
+
+copyright: (c) 2017 Divvun/Giellatekno/UiT
+organisation: UiT Norgga árktalaš universitehta
+
+layouts: [vro]
+
+version: 1.0
+build: 1
+
+targets:
+  android:
+    packageId: no.uit.giella.keyboards.vro
+    icon: vro-icon.pdf
+    keyStore: /Users/brendan/git/softkbdgen/test.keystore
+    keyAlias: vro_keyboard
+
+  ios: &AppleID
+    codeSignId: "iOS Development"
+    provisioningProfileId: Test
+    packageId: no.uit.giella.keyboards.vro
+    bundleName: *bundleName
+    icon:
+        90: vro-icon-small.png
+        150: vro-icon.png
+  osx: *AppleID
