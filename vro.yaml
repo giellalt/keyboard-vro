@@ -86,6 +86,36 @@ longpress:
   a: ä á æ å
   o: ö õ ø
   u: ü
+  B: B́
+  D: D́
+  F: F́
+  G: Ǵ
+  H: H́
+  K: Ḱ
+  L: Ĺ
+  M: Ḿ
+  N: Ń
+  P: Ṕ
+  R: Ŕ
+  S: Ś Š
+  T: T́
+  V: V́
+  Z: Ź Ž
+  b: b́
+  d: d́
+  f: f́
+  g: ǵ
+  h: h́
+  k: ḱ
+  l: ĺ
+  m: ḿ
+  n: ń
+  p: ṕ
+  r: ŕ
+  s: ś š
+  t: t́
+  v: v́
+  z: ź ž
 
 styles:
   tablet:
@@ -143,20 +173,38 @@ transforms:
     A: Á
     c: ć
     C: Ć
+    d: d́
+    D: D́
     e: é
     E: É
+    f: f́
+    F: F́
+    g: ǵ
+    G: Ǵ
+    h: h́
+    H: H́
     i: í
     I: Í
+    k: ḱ
+    K: Ḱ
     l: ĺ
     L: Ĺ
+    m: ḿ
+    M: Ḿ
     n: ń
     N: Ń
     o: ó
     O: Ó
+    p: ṕ
+    P: Ṕ
     r: ŕ
     R: Ŕ
     s: ś
     S: Ś
+    t: t́
+    T: T́
+    v: v́
+    V: V́
     z: ź
     Z: Ź
     u: ú
