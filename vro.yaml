@@ -40,13 +40,13 @@ modes:
     ¶ © @ £ $ ® § { [ ] } \ ¨
     • š é ŕ t́ ý ú í ó ṕ ű §
     á ś d́ f́ ǵ h́ √ ḱ ĺ ő ◊ ™
-    | ź ž ć ‹ › ‚ ‘ ’ … –
+    | ź ž ć v́ › ń ḿ ’ … –
 
   "iso-alt+shift": |
-    • \u{0} ” \u{0} \u{0} \u{0} ¶ \u{0} ≤ ≥ ≠ \u{0} ˇ
-    °    Š  É    Ŕ     T́     Ý  Ú    Í  Ó Ṕ Ű    ~
-    Á    Ś  D́    F́     Ǵ     H́  ¬    Ḱ  Ĺ Ő ∑    ’
-    |    Ź  Ž    Ć     «     »  „    “  ” ÷ —
+    „ “ ” « » ‚ ¶ ‘ ≤ ≥ ≠ ≈ ˇ
+    ° Š É Ŕ T́ Ý Ú Í Ó Ṕ Ű ~
+    Á Ś D́ F́ Ǵ H́ ¬ Ḱ Ĺ Ő ∑ ’
+    | Ź Ž Ć V́ ‹ Ń Ḿ ” ÷ —
 
 # What is this? The same as the next? Cf name. But the content is not
 # visible in the svg rendering - is it just ignored?
@@ -58,9 +58,9 @@ modes:
   # opt+caps+cmd?
   iso-caps+alt: |
     ¶ © ™ £ $ į § | [ ] Ň Ī ę
-    • Ĺ É ® † Ķ Ü ű ő Ļ ķ ~
-    ū Š ∂ ń Ł Ģ √ Ľ ř Į ģ @
-    ≤ Ź Ž ā ‹ › ‘ ’ ‚ … –
+    • Š É Ŕ T́ Ý Ú Í Ó Ṕ Ű ~
+    Á Ś D́ F́ Ǵ H́ √ Ḱ Ĺ Ő ģ @
+    ≤ Ź Ž Ć V́ › Ń Ḿ ‚ … –
   # ctrl+opt?+caps?+shift? ctrl+cmd?+opt?+shift? ctrl+cmd?+opt?+caps? cmd+ctrlR+opt+caps+shift cmd+ctrlL+opt+caps+shift cmd+ctrl+caps+shift+optR? cmd+ctrl+caps+shift+optL? cmd+ctrl+opt+caps+shiftR? cmd+ctrl+opt+caps+shiftL?
   iso-ctrl: |
     < 1 2 3 4 5 6 7 8 9 0 + ę

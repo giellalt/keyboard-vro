@@ -4,18 +4,18 @@ xkb_symbols "basic" {
     include "latin"
     name[Group1] = "Võro";
 
-    key <AE00> { [      caron, asciitilde,  paragraph, enfilledcircbullet ] };
-    key <AE01> { [          1,     exclam,  copyright,      U0000 ] };
+    key <AE00> { [      caron, asciitilde,  paragraph, doublelowquotemark ] };
+    key <AE01> { [          1,     exclam,  copyright, leftdoublequotemark ] };
     key <AE02> { [          2,   quotedbl,         at, rightdoublequotemark ] };
-    key <AE03> { [          3, numbersign,   sterling,      U0000 ] };
-    key <AE04> { [          4,   EuroSign,     dollar,      U0000 ] };
-    key <AE05> { [          5,    percent, registered,      U0000 ] };
+    key <AE03> { [          3, numbersign,   sterling, guillemotleft ] };
+    key <AE04> { [          4,   EuroSign,     dollar, guillemotright ] };
+    key <AE05> { [          5,    percent, registered, singlelowquotemark ] };
     key <AE06> { [          6,  ampersand,    section,  paragraph ] };
-    key <AE07> { [          7,      slash,  braceleft,      U0000 ] };
+    key <AE07> { [          7,      slash,  braceleft, leftsinglequotemark ] };
     key <AE08> { [          8,  parenleft, bracketleft, lessthanequal ] };
     key <AE09> { [          9, parenright, bracketright, greaterthanequal ] };
     key <AE10> { [          0,      equal, braceright,   notequal ] };
-    key <AE11> { [       plus,   question,  backslash,      U0000 ] };
+    key <AE11> { [       plus,   question,  backslash,      U2248 ] };
     key <AE12> { [ apostrophe,     endash,  diaeresis,      caron ] };
     key <AD01> { [          q,          Q, enfilledcircbullet,     degree ] };
     key <AD02> { [          w,          W,     scaron,     Scaron ] };
@@ -45,10 +45,10 @@ xkb_symbols "basic" {
     key <AB01> { [          z,          Z,     zacute,     Zacute ] };
     key <AB02> { [          x,          X,     zcaron,     Zcaron ] };
     key <AB03> { [          c,          C,     cacute,     Cacute ] };
-    key <AB04> { [          v,          V,      U2039, guillemotleft ] };
-    key <AB05> { [          b,          B,      U203A, guillemotright ] };
-    key <AB06> { [          n,          N, singlelowquotemark, doublelowquotemark ] };
-    key <AB07> { [          m,          M, leftsinglequotemark, leftdoublequotemark ] };
+    key <AB04> { [          v,          V,     UF0008,     UF0009 ] };
+    key <AB05> { [          b,          B,      U203A,      U2039 ] };
+    key <AB06> { [          n,          N,     nacute,     Nacute ] };
+    key <AB07> { [          m,          M,      U1E3F,      U1E3E ] };
     key <AB08> { [      comma,  semicolon, rightsinglequotemark, rightdoublequotemark ] };
     key <AB09> { [ decimalpoint,      colon,   ellipsis,   division ] };
     key <AB10> { [      minus,   underbar,     endash,     emdash ] };
