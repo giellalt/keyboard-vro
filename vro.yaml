@@ -37,17 +37,19 @@ modes:
     < Z X C V B N M , . -
 
   "iso-alt": |
-    ¶    ©    @    £     $  \u{0}    §     {     [     ]    }  \ ¨
-    •    š    é    ®     †  \u{0} \u{0} \u{0} \u{0} \u{0}   ű  §
-    á    ś    ∂ \u{0} \u{0} \u{0}    √  \u{0}    ß     ő \u{0} ™
-    |    ź    ž    č     ‹     ›     ‚     ‘     ’     …    –
+    ¶ © @ £ $ ® § { [ ] } \ ¨
+    • š é ŕ t́ ý ú í ó ṕ ű §
+    á ś d́ f́ ǵ h́ √ ḱ ĺ ő ◊ ™
+    | ź ž ć ‹ › ‚ ‘ ’ … –
 
   "iso-alt+shift": |
     • \u{0} ” \u{0} \u{0} \u{0}    ¶  \u{0}    ≤     ≥     ≠ \u{0} ˇ
-    ° \u{0} É    √  \u{0} \u{0} \u{0}    ˇ  \u{0} \u{0}    Ű    ~
-    ◊    Š  ∆ \u{0} \u{0} \u{0}    ¬  \u{0}    ∑     Ő  \u{0}   ’
-    |    Ź  Ž    Č     «     »     „     “     ”     ÷     —
+    °    Š  É    Ŕ     T́     Ý  \u{0}    ˇ  \u{0} \u{0}    Ű    ~
+    Á    Ś  D́    F́     Ǵ     H́     ¬     Ḱ     Ĺ     Ő     ∑    ’
+    |    Ź  Ž    Ć     «     »     „     “     ”     ÷     —
 
+# What is this? The same as the next? Cf name. But the content is not
+# visible in the svg rendering - is it just ignored?
   "iso-alt+caps": |
     ' © ™ £ € ˆ § | [ ] ˝ ± \u{300}
     Q W É ˇ Þ Y ˀ ʼ Œ ˙ ˚ ¨
@@ -58,7 +60,7 @@ modes:
     ¶ © ™ £ $ į § | [ ] Ň Ī ę
     • Ĺ É ® † Ķ Ü ű ő Ļ ķ ~
     ū Š ∂ ń Ł Ģ √ Ľ ř Į ģ @
-    ≤ Ž Ň ā ‹ › ‘ ’ ‚ … –
+    ≤ Ź Ž ā ‹ › ‘ ’ ‚ … –
   # ctrl+opt?+caps?+shift? ctrl+cmd?+opt?+shift? ctrl+cmd?+opt?+caps? cmd+ctrlR+opt+caps+shift cmd+ctrlL+opt+caps+shift cmd+ctrl+caps+shift+optR? cmd+ctrl+caps+shift+optL? cmd+ctrl+opt+caps+shiftR? cmd+ctrl+opt+caps+shiftL?
   iso-ctrl: |
     < 1 2 3 4 5 6 7 8 9 0 + ę
