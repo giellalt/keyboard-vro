@@ -32,6 +32,6 @@ targets:
     packageId: no.uit.giella.keyboards.vro
     bundleName: *bundleName
     icon:
-        90: vro-icon-small.png
-        150: vro-icon.png
+#       90: vro-icon-small.png
+        150: images/Voro_lipp.png
   osx: *AppleID
