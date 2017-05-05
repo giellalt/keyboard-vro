@@ -23,10 +23,10 @@ xkb_symbols "basic" {
     key <AD04> { [          r,          R,     racute,     Racute ] };
     key <AD05> { [          t,          T,     UF0000,     UF0001 ] };
     key <AD06> { [          y,          Y,     yacute,     Yacute ] };
-    key <AD07> { [          u,          U,     uacute,      U0000 ] };
-    key <AD08> { [          i,          I,     iacute,      caron ] };
-    key <AD09> { [          o,          O,     oacute,      U0000 ] };
-    key <AD10> { [          p,          P,      U1E55,      U0000 ] };
+    key <AD07> { [          u,          U,     uacute,     Uacute ] };
+    key <AD08> { [          i,          I,     iacute,     Iacute ] };
+    key <AD09> { [          o,          O,     oacute,     Oacute ] };
+    key <AD10> { [          p,          P,      U1E55,      U1E54 ] };
     key <AD11> { [ udiaeresis, Udiaeresis, udoubleacute, Udoubleacute ] };
     key <AD12> { [     otilde,     Otilde,    section, asciitilde ] };
     key <AC01> { [          a,          A,     aacute,     Aacute ] };

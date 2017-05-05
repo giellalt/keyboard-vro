@@ -43,10 +43,10 @@ modes:
     | ź ž ć ‹ › ‚ ‘ ’ … –
 
   "iso-alt+shift": |
-    • \u{0} ” \u{0} \u{0} \u{0}    ¶  \u{0}    ≤     ≥     ≠ \u{0} ˇ
-    °    Š  É    Ŕ     T́     Ý  \u{0}    ˇ  \u{0} \u{0}    Ű    ~
-    Á    Ś  D́    F́     Ǵ     H́     ¬     Ḱ     Ĺ     Ő     ∑    ’
-    |    Ź  Ž    Ć     «     »     „     “     ”     ÷     —
+    • \u{0} ” \u{0} \u{0} \u{0} ¶ \u{0} ≤ ≥ ≠ \u{0} ˇ
+    °    Š  É    Ŕ     T́     Ý  Ú    Í  Ó Ṕ Ű    ~
+    Á    Ś  D́    F́     Ǵ     H́  ¬    Ḱ  Ĺ Ő ∑    ’
+    |    Ź  Ž    Ć     «     »  „    “  ” ÷ —
 
 # What is this? The same as the next? Cf name. But the content is not
 # visible in the svg rendering - is it just ignored?
