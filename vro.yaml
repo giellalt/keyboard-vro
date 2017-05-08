@@ -140,6 +140,7 @@ deadKeys:
   iso-alt: ['¨']
   iso-alt+shift: ['~', 'ˇ']
   iso-caps+alt: ['~']
+  osx-cmd+alt: [',', '¯', '¸', 'ƒ', '˙', '˜', '˝']
 
 transforms:
   –:
@@ -277,6 +278,7 @@ transforms:
 
 special:
   space:
+    iso-caps: \u{A0}
     iso-alt: \u{A0}
     iso-alt+shift: \u{A0}
     iso-caps+alt: \u{A0}
