@@ -16,7 +16,7 @@ xkb_symbols "basic" {
     key <AE09> { [          9, parenright, bracketright, greaterthanequal ] };
     key <AE10> { [          0,      equal, braceright,   notequal ] };
     key <AE11> { [       plus,   question,  backslash,      U2248 ] };
-    key <AE12> { [ apostrophe,     endash,  diaeresis,      caron ] };
+    key <AE12> { [      acute,     endash,  diaeresis,      caron ] };
     key <AD01> { [          q,          Q, enfilledcircbullet,     degree ] };
     key <AD02> { [          w,          W,     scaron,     Scaron ] };
     key <AD03> { [          e,          E,     eacute,     Eacute ] };
@@ -39,14 +39,14 @@ xkb_symbols "basic" {
     key <AC08> { [          k,          K,      U1E31,      U1E30 ] };
     key <AC09> { [          l,          L,     lacute,     Lacute ] };
     key <AC10> { [ odiaeresis, Odiaeresis, odoubleacute, Odoubleacute ] };
-    key <AC11> { [ adiaeresis, Adiaeresis,      U25CA,      U2211 ] };
+    key <AC11> { [ adiaeresis, Adiaeresis,      U2039,      U203A ] };
     key <AD13> { [ apostrophe,   asterisk,  trademark, rightsinglequotemark ] };
     key <AB00> { [  leftcaret, rightcaret,        bar,        bar ] };
     key <AB01> { [          z,          Z,     zacute,     Zacute ] };
     key <AB02> { [          x,          X,     zcaron,     Zcaron ] };
     key <AB03> { [          c,          C,     cacute,     Cacute ] };
     key <AB04> { [          v,          V,     UF0008,     UF0009 ] };
-    key <AB05> { [          b,          B,      U203A,      U2039 ] };
+    key <AB05> { [          b,          B,     UF000A,     UF000B ] };
     key <AB06> { [          n,          N,     nacute,     Nacute ] };
     key <AB07> { [          m,          M,      U1E3F,      U1E3E ] };
     key <AB08> { [      comma,  semicolon, rightsinglequotemark, rightdoublequotemark ] };
