@@ -1,3 +1,5 @@
+### Made from template file + data copied from draft that was:
+### Generated from et-t-k0-osx.xml on 2017-05-04 at 11:42.
 internalName: vro_keyboards
 
 displayNames:
@@ -36,25 +38,18 @@ modes:
     A S D F G H J K L Ö Ä '
     < Z X C V B N M , . -
 
-  "iso-alt": |
+  iso-alt: |
     ¶ © @ £ $ ® § { [ ] } \ ¨
     • š é ŕ t́ ý ú í ó ṕ ű §
     á ś d́ f́ ǵ h́ √ ḱ ĺ ő ◊ ™
     | ź ž ć v́ › ń ḿ ’ … –
 
-  "iso-alt+shift": |
+  iso-alt+shift: |
     „ “ ” « » ‚ ¶ ‘ ≤ ≥ ≠ ≈ ˇ
     ° Š É Ŕ T́ Ý Ú Í Ó Ṕ Ű ~
     Á Ś D́ F́ Ǵ H́ ¬ Ḱ Ĺ Ő ∑ ’
     | Ź Ž Ć V́ ‹ Ń Ḿ ” ÷ —
 
-# What is this? The same as the next? Cf name. But the content is not
-# visible in the svg rendering - is it just ignored?
-  "iso-alt+caps": |
-    ' © ™ £ € ˆ § | [ ] ˝ ± \u{300}
-    Q W É ˇ Þ Y ˀ ʼ Œ ˙ ˚ ¨
-    ¯ SS Ð ƒ . ˛ ˘ ˜ - Ö Ä @
-    < ÷ X ¸ ‹ › ‘ ’ ‚ … –
   # opt+caps+cmd?
   iso-caps+alt: |
     ¶ © ™ £ $ į § | [ ] Ň Ī ę
