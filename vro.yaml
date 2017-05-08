@@ -77,41 +77,50 @@ modes:
 
 # mobile keyboards properties:
 longpress:
-  A: Ä Á Æ Å
-  O: Ö Õ Ø
-  U: Ü
-  a: ä á æ å
-  o: ö õ ø
-  u: ü
+  A: Á Ä Æ Å
   B: B́
+  C: Ć
   D: D́
+  E: É
   F: F́
   G: Ǵ
   H: H́
+  I: Í
   K: Ḱ
   L: Ĺ
   M: Ḿ
   N: Ń
+  O: Ó Ö Õ Ø
   P: Ṕ
   R: Ŕ
   S: Ś Š
   T: T́
+  U: Ú Ü
   V: V́
+  Y: Ý
   Z: Ź Ž
+
+  a: á ä æ å
   b: b́
+  c: ć
   d: d́
+  e: é
   f: f́
   g: ǵ
   h: h́
+  i: í
   k: ḱ
   l: ĺ
   m: ḿ
   n: ń
+  o: ó ö õ ø
   p: ṕ
   r: ŕ
   s: ś š
   t: t́
+  u: ú ü
   v: v́
+  y: ý
   z: ź ž
 
 styles:
