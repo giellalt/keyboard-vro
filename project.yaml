@@ -32,4 +32,7 @@ targets:
     packageId: no.uit.giella.keyboards.vro
     bundleName: *bundleName
     icon: images/Voro_lipp.png
-  osx: *AppleID
+  osx:
+    <<: *AppleID
+    icon: images/vro-icon.png
+    codeSignId: "my-test-installer"
