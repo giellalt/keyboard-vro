@@ -31,7 +31,5 @@ targets:
     provisioningProfileId: Test
     packageId: no.uit.giella.keyboards.vro
     bundleName: *bundleName
-    icon:
-#       90: vro-icon-small.png
-        150: images/Voro_lipp.png
+    icon: images/Voro_lipp.png
   osx: *AppleID
