@@ -21,8 +21,8 @@ build: 1
 
 targets:
   android:
-    packageId: no.uit.giella.keyboards.vro
-    icon: vro-icon.pdf
+    packageId: no.uit.giella.keyboards.__UND__
+    icon: images/__UND__-icon.pdf
     keyStore: /Users/brendan/git/softkbdgen/test.keystore
     keyAlias: vro_keyboard
 
