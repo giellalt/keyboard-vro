@@ -16,7 +16,7 @@ xkb_symbols "basic" {
     key <AE09> { [          9, parenright, bracketright, greaterthanequal ] };
     key <AE10> { [          0,      equal, braceright,   notequal ] };
     key <AE11> { [       plus,   question,  backslash,      U2248 ] };
-    key <AE12> { [      acute,     endash,  diaeresis,      caron ] };
+    key <AE12> { [      acute,      U0301,  diaeresis,      caron ] };
     key <AD01> { [          q,          Q, enfilledcircbullet,     degree ] };
     key <AD02> { [          w,          W,     scaron,     Scaron ] };
     key <AD03> { [          e,          E,     eacute,     Eacute ] };

@@ -27,7 +27,7 @@ modes:
     < z x c v b n m , . -
   # shift+caps?
   iso-shift: |
-    ~ ! " # € % & / ( ) = ? –
+    ~ ! " # € % & / ( ) = ? \u{301}
     Q W E R T Y U I O P Ü Õ
     A S D F G H J K L Ö Ä *
     > Z X C V B N M ; : _
@@ -142,9 +142,8 @@ strings:
 decimal: ","
 
 deadKeys:
-deadKeys:
   iso-default: ['´', 'ˇ']
-  iso-shift: ['~', '–']
+  iso-shift: ['~']
   iso-caps: ['ę']
   iso-alt: ['¨']
   iso-alt+shift: ['~', 'ˇ']
@@ -152,28 +151,6 @@ deadKeys:
   osx-cmd+alt: [',', '¯', '¸', 'ƒ', '˙', '˜', '˝']
 
 transforms:
-  –:
-    " ": –
-    a: ā
-    A: Ā
-    e: ē
-    E: Ē
-    g: ģ
-    G: Ģ
-    i: ī
-    I: Ī
-    k: ķ
-    K: Ķ
-    l: ļ
-    L: Ļ
-    n: ņ
-    N: Ņ
-    o: ō
-    O: Ō
-    r: ŗ
-    R: Ŗ
-    u: ū
-    U: Ū
   "´":
     " ": "´"
     a: á
