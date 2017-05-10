@@ -155,6 +155,8 @@ transforms:
     " ": "´"
     a: á
     A: Á
+    b: b́
+    B: B́
     c: ć
     C: Ć
     d: d́
