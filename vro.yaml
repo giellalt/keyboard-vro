@@ -148,7 +148,6 @@ deadKeys:
   iso-alt: ['¨']
   iso-alt+shift: ['~', 'ˇ']
   iso-caps+alt: ['~']
-  osx-cmd+alt: [',', '¯', '¸', 'ƒ', '˙', '˜', '˝']
 
 transforms:
   "´":
