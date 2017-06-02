@@ -1,4 +1,4 @@
-internalName: vro_keyboard
+internalName: vro
 
 locales:
   en:
@@ -29,12 +29,12 @@ targets:
   ios: &AppleID
     codeSignId: "iOS Development"
     provisioningProfileId: Test
-    packageId: no.uit.giella.keyboards.vro
+    packageId: no.uit.giella
     bundleName: *bundleName
     icon: images/Voro_lipp.png
   osx:
     <<: *AppleID
     icon: images/vro-keyboard-menu-icon.png
     codeSignId: "Developer ID Installer: The University of Tromso (2K5J2584NX)"
-    version: 0.2.0
+    version: 0.3.0
     resources: doc
