@@ -23,8 +23,8 @@ targets:
   android:
     packageId: no.uit.giella.keyboards.vro
     icon: images/vro-keyboard-menu-icon.png
-    keyStore: /Users/brendan/git/softkbdgen/test.keystore
-    keyAlias: vro_keyboard
+    keyStore: $GTPRIV/admin/dev-accounts/dev_keys/sami_keyboard.keystore
+    keyAlias: sami_keyboard
 
   ios: &AppleID
     codeSignId: "iOS Development"
