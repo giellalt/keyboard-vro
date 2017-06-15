@@ -32,8 +32,15 @@ targets:
     packageId: no.uit.giella
     bundleName: *bundleName
     icon: images/Voro_lipp.png
+
   osx:
     <<: *AppleID
     icon: images/vro-keyboard-menu-icon.png
     version: 0.3.0
     resources: doc
+
+  win:
+    appName: *bundleName
+    version: 0.1.0
+    url: "http://divvun.no"
+    uuid: "replace-with-real-uuid-one-for-each-language"
