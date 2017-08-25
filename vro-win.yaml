@@ -1,11 +1,19 @@
+### Made from template file + data copied from draft that was:
 ### Generated from et-t-k0-windows.xml on 2017-08-25 at 12:02.
-
-internalName: et-t-k0-windows
+internalName: vro
 
 displayNames:
-  et: Estonian
+  vro: Võro
+  en: Võro
 
-locale: et
+locale: vro
+
+supportedTargets: [win, x11, svg]
+
+targets:
+  win:
+    locale: vro-Latn
+    languageName: "Võro kiil"
 
 modes:
   # default
@@ -50,6 +58,9 @@ modes:
     \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0}
     \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{1B} \u{1D} \u{0}
     \u{1C} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0}
+
+# other desktop keyboard properties:
+decimal: ","
 
 deadKeys:
   iso-default: ['´', 'ˇ']
