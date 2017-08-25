@@ -1,0 +1,277 @@
+### Made from template file + data copied from draft that was:
+### Generated from et-t-k0-osx.xml on 2017-05-04 at 11:42.
+internalName: vro
+
+displayNames:
+  vro: Võro
+  en: Võro
+
+locale: vro
+
+targets:
+  win:
+    locale: vro-Latn
+    languageName: "Võro kiil"
+
+modes:
+# mobile layouts:
+  mobile-default: |
+    q w e r t y u i o p ü
+    a s d f g h j k l ö ä
+      z x c v b n m õ
+  mobile-shift: |
+    Q W E R T Y U I O P Ü
+    A S D F G H J K L Ö Ä
+      Z X C V B N M Õ
+
+# desktop keyboard layouts:
+  iso-default: |
+    ˇ 1 2 3 4 5 6 7 8 9 0 + ´
+    q w e r t y u i o p ü õ
+    a s d f g h j k l ö ä '
+    < z x c v b n m , . -
+  # shift+caps?
+  iso-shift: |
+    ~ ! " # € % & / ( ) = ? \u{301}
+    Q W E R T Y U I O P Ü Õ
+    A S D F G H J K L Ö Ä *
+    > Z X C V B N M ; : _
+  # " # caps
+  iso-caps: |
+    § 1 2 3 4 5 6 7 8 9 0 + ę
+    Q W E R T Y U I O P Ü Õ
+    A S D F G H J K L Ö Ä '
+    < Z X C V B N M , . -
+
+  iso-alt: |
+    ¶ © @ £ $ ® § { [ ] } \ ¨
+    • š é ŕ t́ ý ú í ó ṕ ű §
+    á ś d́ f́ ǵ h́ √ ḱ ĺ ő ‹ ™
+    | ź ž ć v́ b́ ń ḿ ’ … –
+
+  iso-alt+shift: |
+    „ “ ” « » ‚ ¶ ‘ ≤ ≥ ≠ ≈ ˇ
+    ° Š É Ŕ T́ Ý Ú Í Ó Ṕ Ű ~
+    Á Ś D́ F́ Ǵ H́ ¬ Ḱ Ĺ Ő › ’
+    | Ź Ž Ć V́ B́ Ń Ḿ ” ÷ —
+
+  # opt+caps+cmd?
+  iso-caps+alt: |
+    ¶ © ™ £ $ į § | [ ] Ň Ī ę
+    • Š É Ŕ T́ Ý Ú Í Ó Ṕ Ű ~
+    Á Ś D́ F́ Ǵ H́ √ Ḱ Ĺ Ő ģ @
+    ≤ Ź Ž Ć V́ B́ Ń Ḿ ‚ … –
+  # ctrl+opt?+caps?+shift? ctrl+cmd?+opt?+shift? ctrl+cmd?+opt?+caps? cmd+ctrlR+opt+caps+shift cmd+ctrlL+opt+caps+shift cmd+ctrl+caps+shift+optR? cmd+ctrl+caps+shift+optL? cmd+ctrl+opt+caps+shiftR? cmd+ctrl+opt+caps+shiftL?
+  iso-ctrl: |
+    < 1 2 3 4 5 6 7 8 9 0 + ę
+    \u{11} \u{17} \u{5} \u{12} \u{14} \u{19} \u{15} \u{9} \u{F} \u{10} \u{1D} \u{1E}
+    \u{1} \u{13} \u{4} \u{6} \u{7} \u{8} \u{D} \u{B} \u{C} \u{1C} \u{1B} '
+    < \u{1A} \u{18} \u{3} \u{16} \u{2} \u{E} \u{D} , . \u{1F}
+  # cmd+shiftR? cmd+shiftR+shiftL? cmd+caps+shift?
+  osx-cmd: |
+    § 1 2 3 4 5 6 7 8 9 0 - =
+    q w e r t y u i o p [ ]
+    a s d f g h j k l ; ' \
+    ` z x c v b n m , . /
+  # cmd+opt
+  osx-cmd+alt: |
+    ¶ © @ £ $ \u{20} § { [ ] } \ ¨
+    • \u{20} é ® † \u{20} \u{20} \u{20} \u{20} \u{20} ű §
+    \u{20} š ∂ \u{20} \u{20} \u{20} √ \u{20} ß ő \u{20} ™
+    | ž \u{20} č ‹ › ‚ ‘ ’ … –
+
+# mobile keyboards properties:
+longpress:
+  A: Á Ä Æ Å
+  B: B́
+  C: Ć
+  D: D́
+  E: É
+  F: F́
+  G: Ǵ
+  H: H́
+  I: Í
+  K: Ḱ
+  L: Ĺ
+  M: Ḿ
+  N: Ń
+  O: Ó Ö Õ Ø
+  P: Ṕ
+  R: Ŕ
+  S: Ś Š
+  T: T́
+  U: Ú Ü
+  V: V́
+  Y: Ý
+  Z: Ź Ž
+
+  a: á ä æ å
+  b: b́
+  c: ć
+  d: d́
+  e: é
+  f: f́
+  g: ǵ
+  h: h́
+  i: í
+  k: ḱ
+  l: ĺ
+  m: ḿ
+  n: ń
+  o: ó ö õ ø
+  p: ṕ
+  r: ŕ
+  s: ś š
+  t: t́
+  u: ú ü
+  v: v́
+  y: ý
+  z: ź ž
+
+styles:
+  tablet:
+    actions:
+      backspace: [1, right, fill]
+      enter: [2, right, fill]
+      shift: [3, both, fill]
+  phone:
+    actions:
+      shift: [3, left, fill]
+      backspace: [3, right, fill]
+
+strings:
+  space: gaska
+  return: linnjámolsun
+
+# other desktop keyboard properties:
+decimal: ","
+
+deadKeys:
+  iso-default: ['´', 'ˇ']
+  iso-shift: ['~']
+  iso-caps: ['ę']
+  iso-alt: ['¨']
+  iso-alt+shift: ['~', 'ˇ']
+  iso-caps+alt: ['~']
+
+transforms:
+  "´":
+    " ": "´"
+    a: á
+    A: Á
+    b: b́
+    B: B́
+    c: ć
+    C: Ć
+    d: d́
+    D: D́
+    e: é
+    E: É
+    f: f́
+    F: F́
+    g: ǵ
+    G: Ǵ
+    h: h́
+    H: H́
+    i: í
+    I: Í
+    k: ḱ
+    K: Ḱ
+    l: ĺ
+    L: Ĺ
+    m: ḿ
+    M: Ḿ
+    n: ń
+    N: Ń
+    o: ó
+    O: Ó
+    p: ṕ
+    P: Ṕ
+    r: ŕ
+    R: Ŕ
+    s: ś
+    S: Ś
+    t: t́
+    T: T́
+    v: v́
+    V: V́
+    z: ź
+    Z: Ź
+    u: ú
+    U: Ú
+    y: ý
+    Y: Ý
+  ¨:
+    " ": ¨
+    a: ä
+    A: Ä
+    e: ė
+    E: Ė
+    i: ů
+    I: Ů
+    o: ö
+    O: Ö
+    z: ż
+    Z: Ż
+    u: ü
+    U: Ü
+    ö: ő
+    Ö: Ő
+    ü: ű
+    Ü: Ű
+  ˇ:
+    " ": ˇ
+    c: č
+    C: Č
+    d: ď
+    D: Ď
+    e: ě
+    E: Ě
+    l: ľ
+    L: Ľ
+    n: ň
+    N: Ň
+    o: ô
+    O: Ô
+    r: ř
+    R: Ř
+    s: š
+    S: Š
+    z: ž
+    Z: Ž
+    t: ť
+    T: Ť
+  "~":
+    " ": "~"
+    a: ą
+    A: Ą
+    e: ę
+    E: Ę
+    i: į
+    I: Į
+    l: ł
+    L: Ł
+    o: õ
+    O: Õ
+    u: ų
+    U: Ų
+  ę:
+    " ": ę
+    a: á
+    A: Á
+    e: é
+    E: É
+    i: í
+    I: Í
+    o: ó
+    O: Ó
+    u: ú
+    U: Ú
+
+special:
+  space:
+    iso-caps: \u{A0}
+    iso-alt: \u{A0}
+    iso-alt+shift: \u{A0}
+    iso-caps+alt: \u{A0}
+    osx-cmd+alt: \u{A0}
