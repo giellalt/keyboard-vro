@@ -80,20 +80,54 @@ transforms:
     O: Ò
     u: ù
     U: Ù
+
+# outcommented ones are used in Võro, but not available as a Windows deadkey:
   ´:
     " ": ´
+    a: á
+    A: Á
+#   b: b́
+#   B: B́
     c: ć
     C: Ć
+#   d: d́
+#   D: D́
     e: é
     E: É
+#   f: f́
+#   F: F́
+    g: ǵ
+    G: Ǵ
+#   h: h́
+#   H: H́
+    i: í
+    I: Í
+    k: ḱ
+    K: Ḱ
+    l: ĺ
+    L: Ĺ
+    m: ḿ
+    M: Ḿ
     n: ń
     N: Ń
     o: ó
     O: Ó
+    p: ṕ
+    P: Ṕ
+    r: ŕ
+    R: Ŕ
     s: ś
     S: Ś
+#   t: t́
+#   T: T́
+#   v: v́
+#   V: V́
     z: ź
     Z: Ź
+    u: ú
+    U: Ú
+    y: ý
+    Y: Ý
   ^:
     " ": ^
     a: â
