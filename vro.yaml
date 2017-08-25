@@ -8,6 +8,11 @@ displayNames:
 
 locale: vro
 
+targets:
+  win:
+    locale: vro-Latn
+    languageName: "Võro kiil"
+
 modes:
 # mobile layouts:
   mobile-default: |
