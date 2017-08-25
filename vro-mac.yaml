@@ -8,22 +8,9 @@ displayNames:
 
 locale: vro
 
-targets:
-  win:
-    locale: vro-Latn
-    languageName: "Võro kiil"
+supportedTargets: [osx, x11, svg]
 
 modes:
-# mobile layouts:
-  mobile-default: |
-    q w e r t y u i o p ü
-    a s d f g h j k l ö ä
-      z x c v b n m õ
-  mobile-shift: |
-    Q W E R T Y U I O P Ü
-    A S D F G H J K L Ö Ä
-      Z X C V B N M Õ
-
 # desktop keyboard layouts:
   iso-default: |
     ˇ 1 2 3 4 5 6 7 8 9 0 + ´
@@ -79,69 +66,6 @@ modes:
     • \u{20} é ® † \u{20} \u{20} \u{20} \u{20} \u{20} ű §
     \u{20} š ∂ \u{20} \u{20} \u{20} √ \u{20} ß ő \u{20} ™
     | ž \u{20} č ‹ › ‚ ‘ ’ … –
-
-# mobile keyboards properties:
-longpress:
-  A: Á Ä Æ Å
-  B: B́
-  C: Ć
-  D: D́
-  E: É
-  F: F́
-  G: Ǵ
-  H: H́
-  I: Í
-  K: Ḱ
-  L: Ĺ
-  M: Ḿ
-  N: Ń
-  O: Ó Ö Õ Ø
-  P: Ṕ
-  R: Ŕ
-  S: Ś Š
-  T: T́
-  U: Ú Ü
-  V: V́
-  Y: Ý
-  Z: Ź Ž
-
-  a: á ä æ å
-  b: b́
-  c: ć
-  d: d́
-  e: é
-  f: f́
-  g: ǵ
-  h: h́
-  i: í
-  k: ḱ
-  l: ĺ
-  m: ḿ
-  n: ń
-  o: ó ö õ ø
-  p: ṕ
-  r: ŕ
-  s: ś š
-  t: t́
-  u: ú ü
-  v: v́
-  y: ý
-  z: ź ž
-
-styles:
-  tablet:
-    actions:
-      backspace: [1, right, fill]
-      enter: [2, right, fill]
-      shift: [3, both, fill]
-  phone:
-    actions:
-      shift: [3, left, fill]
-      backspace: [3, right, fill]
-
-strings:
-  space: gaska
-  return: linnjámolsun
 
 # other desktop keyboard properties:
 decimal: ","
