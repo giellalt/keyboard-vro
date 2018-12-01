@@ -32,20 +32,20 @@ modes:
 
   iso-alt: |
     ¶ © @ £ $ ® § { [ ] } \ ¨
-    • š é ŕ t́ ý ú í ó ṕ ű §
+    • š é ŕ t́ ý u̬ i̬ ó ṕ ü̬ õ̭
     á ś d́ f́ ǵ h́ √ ḱ ĺ ő ‹ ™
     | ź ž ć v́ b́ ń ḿ ’ … –
 
   iso-alt+shift: |
     „ “ ” « » ‚ ¶ ‘ ≤ ≥ ≠ ≈ ˇ
-    ° Š É Ŕ T́ Ý Ú Í Ó Ṕ Ű ~
+    ° Š É Ŕ T́ Ý U̬ I̬ Ó Ṕ Ü̬ Õ̭
     Á Ś D́ F́ Ǵ H́ ¬ Ḱ Ĺ Ő › ’
     | Ź Ž Ć V́ B́ Ń Ḿ ” ÷ —
 
   # opt+caps+cmd?
   iso-caps+alt: |
     ¶ © ™ £ $ į § | [ ] Ň Ī ę
-    • Š É Ŕ T́ Ý Ú Í Ó Ṕ Ű ~
+    • Š É Ŕ T́ Ý U̬ I̬ Ó Ṕ Ü̬ Õ̭
     Á Ś D́ F́ Ǵ H́ √ Ḱ Ĺ Ő ģ @
     ≤ Ź Ž Ć V́ B́ Ń Ḿ ‚ … –
   # ctrl+opt?+caps?+shift? ctrl+cmd?+opt?+shift? ctrl+cmd?+opt?+caps? cmd+ctrlR+opt+caps+shift cmd+ctrlL+opt+caps+shift cmd+ctrl+caps+shift+optR? cmd+ctrl+caps+shift+optL? cmd+ctrl+opt+caps+shiftR? cmd+ctrl+opt+caps+shiftL?
@@ -63,7 +63,7 @@ modes:
   # cmd+opt
   osx-cmd+alt: |
     ¶ © @ £ $ \u{20} § { [ ] } \ ¨
-    • \u{20} é ® † \u{20} \u{20} \u{20} \u{20} \u{20} ű §
+    • \u{20} é ® † \u{20} \u{20} \u{20} \u{20} \u{20} ü̬ õ̭
     \u{20} š ∂ \u{20} \u{20} \u{20} √ \u{20} ß ő \u{20} ™
     | ž \u{20} č ‹ › ‚ ‘ ’ … –
 
@@ -97,8 +97,8 @@ transforms:
     G: Ǵ
     h: h́
     H: H́
-    i: í
-    I: Í
+    i: i̬
+    I: I̬
     k: ḱ
     K: Ḱ
     l: ĺ
@@ -121,8 +121,8 @@ transforms:
     V: V́
     z: ź
     Z: Ź
-    u: ú
-    U: Ú
+    u: u̬
+    U: U̬
     y: ý
     Y: Ý
   ¨:
@@ -141,8 +141,8 @@ transforms:
     U: Ü
     ö: ő
     Ö: Ő
-    ü: ű
-    Ü: Ű
+    ü: ü̬
+    Ü: Ü̬
   ˇ:
     " ": ˇ
     c: č
@@ -185,12 +185,12 @@ transforms:
     A: Á
     e: é
     E: É
-    i: í
-    I: Í
+    i: i̬
+    I: I̬
     o: ó
     O: Ó
-    u: ú
-    U: Ú
+    u: u̬
+    U: U̬
 
 special:
   space:

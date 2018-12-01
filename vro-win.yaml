@@ -43,19 +43,19 @@ modes:
   # " # altR+caps? ctrl+alt+caps?
   iso-alt: |
     \u{0} \u{0} @ £ $ € \u{0} { [     ]     }     \ ´
-    \u{0} š     é ŕ t́ ý ú     í ó     ṕ     ű     §
+    \u{0} š     é ŕ t́ ý u̬  i̬ ó     ṕ     ü̬     õ̭
     á     ś     d́ f́ ǵ h́ \u{0} ḱ ĺ     ő     ^     ½
     |     ź     ž ć v́ b́ ń     ḿ \u{0} \u{0} \u{0}
   # altR+shift+caps? ctrl+alt+shift+caps?
   iso-alt+shift: |
     \u{0} \u{0} @ £ $ \u{0} \u{0} { [     ]     }     \ \u{0}
-    \u{0} Š     É Ŕ T́ Ý     Ú     Í Ó     Ṕ     Ű     §
+    \u{0} Š     É Ŕ T́ Ý     U̬     I̬ Ó     Ṕ     Ü̬     Õ̭
     Á     Ś     D́ F́ Ǵ H́     \u{0} Ḱ Ĺ     Ő     ^     ½
     |     Ź     Ž Ć V́ B́     Ń     Ḿ \u{0} \u{0} \u{0}
   # opt+caps+cmd?
   iso-caps+alt: |
     \u{0} \u{0} @ £ $ \u{0} \u{0} { [     ]     }     \ ´
-    \u{0} Š     É Ŕ T́ Ý     Ú     Í Ó     Ṕ     Ű     §
+    \u{0} Š     É Ŕ T́ Ý     U̬     I̬ Ó     Ṕ     Ü̬     Õ̭
     Á     Ś     D́ F́ Ǵ H́     \u{0} Ḱ Ĺ     Ő     ^     ½
     |     Ź     Ž Ć V́ B́     Ń     Ḿ \u{0} \u{0} \u{0}
   # ctrl+caps?
@@ -107,8 +107,8 @@ transforms:
     G: Ǵ
 #   h: h́
 #   H: H́
-    i: í
-    I: Í
+    i: i̬
+    I: I̬
     k: ḱ
     K: Ḱ
     l: ĺ
@@ -131,8 +131,8 @@ transforms:
 #   V: V́
     z: ź
     Z: Ź
-    u: ú
-    U: Ú
+    u: u̬
+    U: U̬
     y: ý
     Y: Ý
   ^:
