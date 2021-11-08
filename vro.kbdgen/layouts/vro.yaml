@@ -1,7 +1,7 @@
 displayNames:
   vro: Võro
   en: Võro
-decimal: ','
+
 modes:
   mobile:
     default: |
@@ -300,6 +300,8 @@ transforms:
 strings:
   space: gaska
   return: linnjámolsun
+
+decimal: ','
 
 space:
   mac:
