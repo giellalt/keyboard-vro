@@ -106,8 +106,7 @@ deadKeys:
     shift: ['~']
     caps: [ę]
     alt: [¨]
-    alt+shift: ['~', ˇ]
-    caps+alt: ['~']
+    alt+shift: [ˇ]
   win:
     default: [´, ˇ]
     shift: ['`', '~']
