@@ -315,4 +315,3 @@ targets:
   win:
     locale: vro-Latn
     languageName: Võro kiil
-    legacyName: vro-win
