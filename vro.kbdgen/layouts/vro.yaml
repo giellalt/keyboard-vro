@@ -312,10 +312,6 @@ space:
     cmd+alt: '\u{A0}'
 
 targets:
-  ios:
-    legacyName: vro-mobile
-  android:
-    legacyName: vro-mobile
   win:
     locale: vro-Latn
     languageName: Võro kiil
