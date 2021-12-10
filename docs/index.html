@@ -1,73 +1,59 @@
-<!doctype html>
-<html>
-<head>
-    <meta charset='utf-8'>
-    <title>Documentation for Võro keyboards</title>
-</head>
-<body>
-    <h2>Readme</h2>
-    <p>The Readme accompagnying the installer can be read
-    <a href="readme.html">here</a>.</p>
+## Readme
 
-    <h2>Layouts</h2>
-    <ul>
-        <li><a href="layout.html">Layout overview</a></p>
-    </ul>
+The Readme accompagnying the installer can be read [here](readme.html).
 
-    <h2>Windows restrictions</h2>
-    <p>Due to limitations in MS' keyboard driver implementation, it is not
-    possible to make a deadkey that would output the following six letters (and
-    their uppercase version):</p>
-    <ul>
-      <li>b́</li>
-      <li>B́</li>
-      <li>d́</li>
-      <li>D́</li>
-      <li>f́</li>
-      <li>F́</li>
-      <li>h́</li>
-      <li>H́</li>
-      <li>t́</li>
-      <li>T́</li>
-      <li>v́</li>
-      <li>V́</li>
-    </ul>
-    <p>All other accented letters are available via a deadkey just to the left
-    of the delete key - type the deadkey, then type the letter you want (see the
-    <a href="layout.html">layout</a> for details).</p>
+## Layouts
 
-    <p>For the six letters above you instead do the following:</p>
-    <ol>
-      <li>type your base character, e.g. "v"</li>
-      <li>type <strong>shift-deadkey</strong> (this produces a combining
-      diacritic "´")</li>
-      <li>the end result should be the letter "v́"</li>
-    </ol>
+-   [Layout overview](layout.html)
 
-    <p>This limitation <strong>only applies to Windows</strong>. On macOS and
-    Linux the deadkey should work for all letters.</p>
+## Windows restrictions
 
-    <p>An alternative typing approach that works the same across all platforms
-    is to type AltGr + base char to get the accented letter. See the keyboard
-    layout definition for details of where the letters are located.</p>
+Due to limitations in MS' keyboard driver implementation, it is not
+possible to make a deadkey that would output the following six letters
+(and their uppercase version):
 
-    <h2>Version history</h2>
+-   b́
+-   B́
+-   d́
+-   D́
+-   f́
+-   F́
+-   h́
+-   H́
+-   t́
+-   T́
+-   v́
+-   V́
 
-    <dl>
-      <dt>0.3</dt>
-      <dd>Windows (27.8.2017):
-        <ul>
-          <li>Based Windows layout on estonian Windows layout, to make sure
-              technical symbols are in the expected location</li>
-          <li>Major improvements to the installer based on new code and bug
-              fixes in the kbdgen code</li>
-        </ul>
-      </dd>
-      <dt>0.2.1</dt>
-      <dd>Bug fixes</dd>
-      <dt>0.2.0</dt>
-      <dd>First public release</dd>
-    </dl>
+All other accented letters are available via a deadkey just to the left
+of the delete key - type the deadkey, then type the letter you want (see
+the [layout](layout.html) for details).
 
-</body>
-</html>
+For the six letters above you instead do the following:
+
+1.  type your base character, e.g. "v"
+2.  type **shift-deadkey** (this produces a combining diacritic "´")
+3.  the end result should be the letter "v́"
+
+This limitation **only applies to Windows**. On macOS and Linux the
+deadkey should work for all letters.
+
+An alternative typing approach that works the same across all platforms
+is to type AltGr + base char to get the accented letter. See the
+keyboard layout definition for details of where the letters are located.
+
+## Version history
+
+0.3  
+Windows (27.8.2017):
+
+-   Based Windows layout on estonian Windows layout, to make sure
+    technical symbols are in the expected location
+-   Major improvements to the installer based on new code and bug fixes
+    in the kbdgen code
+
+0.2.1  
+Bug fixes
+
+0.2.0  
+First public release
