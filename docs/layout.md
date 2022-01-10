@@ -8,10 +8,10 @@
 |**Deadkey** | green   | orange       | pink                    | green                    |
 
 
-## Võro (macOS)
+# Võro (macOS)
 
   
 
-## Võro (Windows)
+# Võro (Windows)
 
   

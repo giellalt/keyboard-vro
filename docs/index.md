@@ -1,11 +1,11 @@
 # Documentation for the Võro keyboards
 
 
-## Layouts
+# Layouts
 
 -   [Layout overview](layout.html)
 
-## Windows restrictions
+# Windows restrictions
 
 Due to limitations in MS' keyboard driver implementation, it is not
 possible to make a deadkey that would output the following six letters
@@ -41,7 +41,7 @@ An alternative typing approach that works the same across all platforms
 is to type AltGr + base char to get the accented letter. See the
 keyboard layout definition for details of where the letters are located.
 
-## Version history
+# Version history
 
 0.3  
 Windows (27.8.2017):
