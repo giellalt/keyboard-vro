@@ -10,8 +10,8 @@
 
 # Võro (macOS)
 
-  
+![](vro-mac.svg)
 
 # Võro (Windows)
 
-  
+![](vro-win.svg)
