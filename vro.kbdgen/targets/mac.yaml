@@ -3,5 +3,5 @@ provisioningProfileId: Test
 packageId: no.uit.giella
 bundleName: Võro Keyboards
 icon: images/vro-keyboard-menu-icon.png
-version: 0.1.1-rc1
+version: 0.1.1-rc2
 build: 2
