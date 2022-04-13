@@ -1,6 +1,6 @@
 codeSignId: 'Developer ID Installer: The University of Tromso (2K5J2584NX)'
 provisioningProfileId: Test
-packageId: no.uit.giella
+packageId: no.uit.giella.keyboards.vro
 bundleName: Võro Keyboards
 build: 2
 version: 0.1.0
