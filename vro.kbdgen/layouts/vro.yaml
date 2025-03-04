@@ -1,7 +1,7 @@
 displayNames:
   vro: Võro
   en: Võro
-decimal: ','
+
 android:
   config:
 #    spellerPackageKey: https://pahkat.uit.no/main/packages/speller-vro?channel=nightly&platform=mobile
@@ -216,6 +216,7 @@ windows:
     caps+shift: ['`', '~']
     alt: ['^', '´']
     alt+caps: ['´']
+
 transforms:
   ´:
     ' ': ´
@@ -351,6 +352,7 @@ transforms:
     I: Î
     u: û
     U: Û
+
 longpress:
   A: Á Ä Æ Å
   B: B́
@@ -400,7 +402,9 @@ longpress:
   v: v́
   'y': ý
   z: ź ž
+
 keyNames:
   space: gaska
   return: linnjámolsun
 
+decimal: ','
