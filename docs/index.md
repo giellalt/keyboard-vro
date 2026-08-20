@@ -1,9 +1,10 @@
 # Documentation for the Võro keyboards
 
+## Layouts
 
-# Layouts
+- [Layout overview](layout.md)
 
--   [Layout overview](layout.html)
+## Other information
 
 # Windows restrictions
 
